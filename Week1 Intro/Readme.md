@@ -130,7 +130,7 @@ All values above the threshold of 127 are set high (255) , and those below are s
 
 
 ```python
-img = cv2.imread('threshold.jpg',0) #Threshold_adaptive
+img = cv2.imread('img/threshold.jpg',0) #Threshold_adaptive
 ret,th1 = cv2.threshold(img,140,255,cv2.THRESH_BINARY)
 cv2.imshow('output',th1)
 cv2.waitKey()
